@@ -1,4 +1,54 @@
-img {
-    max-width: 30px;
-    height: 30px;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
 }
+
+header {
+    background-color: blue;
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0px 0 10px;
+    height: 120px;
+    .logo {
+        padding: 10px 10px 10px 10px;
+    }
+    .h_logo {
+        border: solid 3px grey ;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+    }
+}
+body {
+    background: linear-gradient(rgb(170, 170, 197), white);
+}
+.hospital_name {
+    padding-top: 10px;
+}
+.main_nav {
+    justify-content: end;
+}
+
+.main_nav a {
+    color: red;
+    display:inline;
+}
+section {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.signin {
+    background-color: #5151a7cb;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px 15px 10px 12px;
+}
+.details {
+    display: flex;
+
+    
+}
+

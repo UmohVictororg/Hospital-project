@@ -9,24 +9,27 @@
 <body>
     <header>
         <div class="logo"><!-- this is the logo of the page -->
-            <img src="images/logo.png" alt="Ibom Idea Specialist Hospital Logo">
+            <img src="images/logo.png" class="h_logo" alt="Ibom Idea Specialist Hospital Logo">
         </div>
         <div class="hospital_name">
             <h1>Ibom Idea Specialist Hospital</h1>
         </div>
-        <nav class="main-nav">
-            <a href="#about">About Us</a> |
-            <a href="#services">Services</a> |
-            <a href="#departments">Departments</a> |
-            <a href="#doctors">Our Doctors</a> |
-            <a href="#appointment">Book Appointment</a> |
+        <nav class="main_nav">
+            <a href="#about">About Us</a> 
+            <a href="#services">Services</a> 
+            <a href="#departments">Departments</a> 
+            <a href="#doctors">Our Doctors</a> 
+            <a href="#appointment">Book Appointment</a> 
             <a href="#contact">Contact</a>
         </nav>
     </header>
-        <section><!-- Sign In / Create Account Section -->
+    <div class="emergency">
+        <button class="emergency" id="emergency"> here for emergency</button>
+    </div>
+        <section class="sign_in"><!-- Sign In / Create Account Section -->
             <section class="signin" id="signin">
             <h2>Welcome to Ibom Ideas Specialist Hospital</h2>
-            <p>Please sign in or create an account to access our services.</p>
+            <p>Please sign in</p>
 
             <form action="homepage.html" method="get">
                 <label for="username">Username or Email:</label><br>
@@ -37,25 +40,11 @@
 
                 <input type="submit" value="Sign In">
             </form>
-
-            <p>Don't have an account?</p>
-            <form action="homepage.html" method="get">
-                <label for="newname">Full Name:</label><br>
-                <input type="text" id="newname" name="newname" required><br><br>
-
-                <label for="newemail">Email:</label><br>
-                <input type="email" id="newemail" name="newemail" required><br><br>
-
-                <label for="newpassword">Create Password:</label><br>
-                <input type="password" id="newpassword" name="newpassword" required><br><br>
-
-                <input type="submit" value="Create Account">
-            </form>
             <hr>
             </section>
         </section>
     <main>
-
+<div class="details">
         <section>
             <h2>About Us</h2>
             <p>At Ibom Idea Specialist Hospital, we provide top-notch medical services with a focus on patient care and comfort.</p>
@@ -69,6 +58,7 @@
             </ul>
         </section>
     </main>
+</div>
     <footer>
         <p>&copy; 2023 Ibom Idea Specialist Hospital. All rights reserved.</p>
     </footer>
